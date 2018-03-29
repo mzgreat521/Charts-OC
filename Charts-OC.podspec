@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, “8.0”
 
   s.source       = { :git => "https://github.com/mzgreat521/Charts-OC.git", :tag => “v#{s.version}" }
-  s.source_files  = "Charts-OC", "Charts-OC/**/*.{h,m}"
+  s.source_files = "Charts-OC", "Charts-OC/**/*.{h,m}"
   # s.public_header_files = "Classes/**/*.h"
 
   s.requires_arc = true
